@@ -34,7 +34,7 @@ function displayOptions(){
             `<span class="hl">${this.value}</span>`
         )
         return `<li><span>${stationName}</span></li>`;
-    }).slice(0, 10).join('');
+    }).slice(0, 7).join('');
 
     searchOptions.innerHTML = this.value ? html : null;
 }
